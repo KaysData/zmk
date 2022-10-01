@@ -30,7 +30,6 @@
                                                      
             >;
         };
-    };
 
         raise_layer {
             bindings = 
