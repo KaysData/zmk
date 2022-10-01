@@ -15,8 +15,8 @@
 // |  LEFT_COMMAND  |    W    |    J    |    K    |    F    |              LOWER  |    ALT               |    .    |    Q    |    Z    |    V    |   DEL   |
 //                                                           
             bindings = <
-    &kp TAB           &kp C     &kp L      &kp M      &kp H               &kp SPACE &kp E                &kp O     &kp Y      &kp G     &kp COMMA &kp BSPC
-    &kp ESC           &kp D     &kp R      &kp T      &kp N     &kp B     &kp LSHFT &kp RALT   &kp APOS  &kp A     &kp I      &kp S     &kp U     &kp RET
+    &kp TAB           &kp C     &kp L      &kp M      &kp H               &kp LSHFT &kp RALT              &kp O     &kp Y      &kp G     &kp COMMA &kp BSPC
+    &kp ESC           &kp D     &kp R      &kp T      &kp N     &kp B     &kp SPACE &kp E   &kp APOS  &kp A     &kp I      &kp S     &kp U     &kp RET
     &kp LEFT_COMMAND  &kp W     &kp J      &kp K      &kp F     &kp P     &tog LOWER &tog RAISE  &kp X     &kp DOT   &kp Q      &kp Z     &kp V     &kp DEL
                                                             
             >;
@@ -24,8 +24,8 @@
 
         lower_layer {
             bindings = <
-    &kp TAB           &kp N1    &kp N2     &kp N3     &kp N4               &kp SPACE &kp EXCL              &kp FSLH  &kp LBKT  &kp RBKT  &kp COMMA &kp BSPC
-    &kp ESC           &kp N6    &kp N7     &kp N8     &kp N9     &kp N5    &kp LSHFT &kp UNDER  &kp APOS   &KP POUND &kp LPAR  &kp RPAR  &kp COLON &kp RET
+    &kp TAB           &kp N1    &kp N2     &kp N3     &kp N4               &kp LSHFT &kp UNDER              &kp FSLH  &kp LBKT  &kp RBKT  &kp COMMA &kp BSPC
+    &kp ESC           &kp N6    &kp N7     &kp N8     &kp N9     &kp N5    &kp SPACE &kp EXCL  &kp APOS   &KP POUND &kp LPAR  &kp RPAR  &kp COLON &kp RET
     &kp LEFT_COMMAND  &kp STAR  &kp PLUS   &kp MINUS  &kp EQUAL  &kp N0    &to DEFAU &to DEFAU  &kp BSLH   &kp DOT   &kp LBRC  &kp RBRC  &kp QMARK &kp DEL
                                                      
             >;
@@ -33,8 +33,8 @@
 
         raise_layer {
             bindings = 
-  &kp TAB          &kp C_BRI_UP &kp C_BRI_DN &kp GRAVE &kp SEMI                   &kp SPACE &none                                              &kp K_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp COMMA &kp BSPC
-  &kp ESC          &kp AMPS     &kp PRCNT    &kp AT    &kp PIPE  &kp C_AC_SEARCH  &kp LSHFT &kp LCTRL   &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS &kp LEFT   &kp UP       &kp RIGHT    &kp DOWN  &kp RET
+  &kp TAB          &kp C_BRI_UP &kp C_BRI_DN &kp GRAVE &kp SEMI                   &kp LSHFT &none                                              &kp K_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp COMMA &kp BSPC
+  &kp ESC          &kp AMPS     &kp PRCNT    &kp AT    &kp PIPE  &kp C_AC_SEARCH  &kp SPACE &kp LCTRL   &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS &kp LEFT   &kp UP       &kp RIGHT    &kp DOWN  &kp RET
   &kp LEFT_COMMAND &kp LT       &kp GT       &kp CARET &kp DLLR  &none            &to DEFAU &to DEFAU   &kp C_AC_DESKTOP_SHOW_ALL_WINDOW       &kp DOT    &none        &none        &none     &kp DEL
                                                                     
             >;
