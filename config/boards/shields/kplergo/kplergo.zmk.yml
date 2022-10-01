@@ -1,0 +1,11 @@
+file_format: "1"
+id: kplergo
+name: kplergo
+type: shield
+url: 
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - kplergo_left
+  - kplergo_right
